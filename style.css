@@ -1,0 +1,251 @@
+* {
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    height: 174px;
+    background-color: #ffd700;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    height: 440px;
+}
+
+h1 {
+    font-family: Ubuntu;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    max-width: 224px;
+    float: left;
+}
+
+#s-location {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #383838;
+    float: right;
+    text-align: right;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+/*Top header menu*/
+
+.top-menu {
+    text-align: center;
+    margin-left: 260px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.top-menu ul li {
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    white-space: nowrap;
+    float: left;
+}
+
+.top-menu ul li a {
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.top-menu ul li a:hover {
+    color: #111;
+}
+
+/*Main contacts*/
+
+.main-contacts li {
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: normal;
+    list-style: none;
+    white-space: nowrap;
+    float: right;
+    padding: 0 5px;
+    margin-top: 8px;
+}
+
+/* Search box */
+
+.form-1st {
+    height: 50px;
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 85px;
+}
+
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+    width: 550px;
+    height: 34px;
+    border-radius: 12px;
+    outline: none;
+}
+
+#submit-btn {
+    height: 42px;
+    width: 150px;
+    color: aliceblue;
+    background-color: #111;
+    border-radius: 12px;
+    float: right;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.downside-menu ul {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 255px;
+}
+
+.downside-menu ul li {
+    font-family: lato;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    float: left;
+}
+
+.downside-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 0% 10px;
+}
+
+.downside-menu ul li a:hover {
+    color: #022c43;
+}
+
+.long-banner-blue {
+    background-color: #073c58;
+    width: 100%;
+    height: 52px;
+}
+
+.long-banner-blue-lists li {
+    float: left;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: normal;
+    list-style: none;
+    line-height: 52px;
+}
+
+.long-banner-blue-lists li a {
+    color: #fff;
+    padding: 0 6px 0 6px;
+    border-right: #fff solid 2px;
+}
+
+.long-banner-blue-lists li a:hover {
+    color: #9e9e9e;
+}
+
+/* Body main page */
+
+.main-page {
+    background-color: #022c43;
+    width: 100%;
+    height: 500px;
+}
+
+#main-page-info,
+#hashtag-info {
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.form-2nd {
+    position: absolute;
+}
+
+#get-plan {
+    width: 150px;
+    height: 50px;
+    background-color: #ffd700;
+    margin-top: 350px;
+}
+
+/* Making shape */
+
+#shape-1 {
+    float: right;
+    width: 404px;
+    height: 255px;
+    margin: 100px 20px 20px 20px;
+    shape-outside: ellipse(20% 90%);
+    clip-path: ellipse(40% 50%);
+    background: #ffd700;
+    opacity: 0.7;
+}
+
+#discount {
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    margin: 160px 00px 300px 720px;
+    font-size: 60px;
+}
+
+/* White bar decor */
+
+.round-white-rec {
+    width: 900px;
+    height: 140px;
+    background-color: #e4e2e2;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.round-white-rec h3 {
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.round-white-rec ul {
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+.round-white-rec ul li {
+    list-style: none;
+    font-family: Poppins;
+    float: left;
+    padding: 0 10px 0;
+}
+
+.round-white-rec ul li a {
+    color: #111;
+    font-size: 16px;
+}
+
+.round-white-rec ul li a:hover {
+    color: #ffd700;
+}
